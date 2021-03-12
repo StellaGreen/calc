@@ -1,6 +1,4 @@
-// calc.js
-
-const { add, sub, mul, div, modulo } = require('./operations')
+const { add, sub, mul, div, modulo } = require('./operation')
 const { ADD_OP, SUB_OP, MUL_OP, DIV_OP, MOD_OP } = require('./constants')
 
 exports.calc = (op, nb1, nb2) => {
